@@ -1,10 +1,11 @@
 import { ConnectWallet } from "@thirdweb-dev/react";
 import { Web3Button } from "@thirdweb-dev/react";
+
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-<div className={styles.container}>
+    <div className={styles.container}>
       <main className={styles.main}>
       <div className={styles.nft}>
     <Web3Button
@@ -14,7 +15,7 @@ export default function Home() {
       onError={(error) => alert("Something went wrong!")}
       theme="dark"
     >
-      Mint Scam NFT_didnt work
+      Mint Scam NFT
     </Web3Button>
     <Web3Button
       contractAddress="0xF3B21d51D6dC6221fd7576Fc4cFEfC0b1019Df7e"
