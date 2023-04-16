@@ -1,11 +1,11 @@
-import { ConnectWallet } from "@thirdweb-dev/react";
 import { Web3Button } from "@thirdweb-dev/react";
-import styles from "../styles/Home.module.css";
-import headMenu from "../components/menu";
+import { ethers } from "ethers";
 
 export default function Home() {
   return (
-      <h1></h1>
+      <h1 className="container text-center">
+        Hello world!
+      </h1>
         
 
   );
