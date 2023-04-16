@@ -5,10 +5,10 @@ export default function Stake() {
     const _tokenIds = ["0"]
     const _amount = 1000
     return(
-    <div className = "bg-gray-300">
+    <div className = "">
         <div className="container grid grid-cols-2  m-3">
             <div className="grid grid-cols-1 gap-3">
-            <h1 className="text-center">Stake NFT</h1>
+            <h1 className="text-center text-blue-800 font-bold text-2xl">Stake NFT</h1>
     <Web3Button
     
       contractAddress="0x524DA2d357Fb9822667A236204714294e2c68FA6"
@@ -41,7 +41,7 @@ export default function Stake() {
             
             <div className="container grid grid-cols-2 m-3">
                 <div className="grid grid-cols-1 gap-3">
-                    <h1 className="text-center">Stake token</h1>
+                    <h1 className="text-center text-blue-800 font-bold text-2xl">Stake token</h1>
                 <Web3Button
                 contractAddress="0xa9930F79A45D8f94FBf5D33808d379607141abdE"
                 action={(contract) => {

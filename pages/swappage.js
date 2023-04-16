@@ -7,7 +7,7 @@ import TokenToEthSwap from '../components/swaptoken.js';
 export default function Component() {
 
   return (
-    <div className='container grid grid-cols-2 m-96 gap-10 w-3/4    text-black'>
+    <div className='container  grid grid-cols-2 m-96 gap-10 contant-center  w-3/4  flex items-stretch  text-black' >
     <div>
       <h1>BNB</h1>
       <input value="0.1"></input>

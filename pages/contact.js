@@ -6,10 +6,10 @@ export default function contactPage() {
         <section className="text-gray-700 body-font relative">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900 text-2xl">
                 Contact Us
               </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-blue-900 text-1xl">
                 Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
                 gentrify.
               </p>
@@ -18,7 +18,7 @@ export default function contactPage() {
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label for="name" className="leading-7 text-sm text-gray-600">
+                    <label for="name" className="leading-7 text-sm text-gray-600 text-2xl">
                       Name
                     </label>
                     <input
@@ -33,7 +33,7 @@ export default function contactPage() {
                   <div className="relative">
                     <label
                       for="email"
-                      className="leading-7 text-sm text-gray-600"
+                      className="leading-7 text-sm text-gray-600 "
                     >
                       Email
                     </label>
@@ -61,7 +61,7 @@ export default function contactPage() {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                  <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
                     Button
                   </button>
                 </div>
