@@ -7,13 +7,13 @@ export default function Home() {
 //<script src="https://kit.fontawesome.com"></script>
     <div class="disr-block">
       <h1 className="container text-center main-text">
-            Mega Dex
+      Enjoyers App
       </h1>
       <h3> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa alias, saepe, natus 
         nam rerum earum impedit eius molestias totam expedita itaque. 
         Commodi laboriosam dolore ut vero eveniet fuga. Reiciendis, inventore?</h3>
         <div className="bottom">
-              <h5>By Crypto Endjoyers</h5>
+              <h5>By Crypto Enjoyers</h5>
                     <div class="icons-block">
                       <ul class="social-icons">
                             <li><a class="social-icon-twitter" href="#" title="..." target="_blank" rel="noopener"></a></li>
